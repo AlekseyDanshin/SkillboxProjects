@@ -1,0 +1,416 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1040px;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+header {
+	height: 100px;
+}
+
+menu {
+	height: 70px;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size:20px;
+	padding: 27px 0 20px 18px;
+	margin: 0 0 34px;
+	border-bottom: 1px solid rgb(229,229,229);
+}
+
+footer {
+	height: 320px;
+}
+
+button {
+	margin: 0 auto;
+	padding: 15px 50px;
+	background: unset;
+	color: #448ccb;
+	border: 1px solid #448ccb;
+	border-radius: 30px;
+}
+
+#button {
+	margin: 42px 36px;
+}
+
+#logo {
+	position: absolute;
+	top: 40px;
+}
+
+#city {
+	text-decoration: underline; 
+	text-decoration-style: dashed;
+    position: absolute;
+	top: 55px;
+	left: 180px;
+	border: 0;
+	color: rgb(104,158,210);
+	background: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+  	appearance: none;
+}
+
+#city-select {
+	position: absolute;
+	top: 53px;
+	left: 243px;
+	background: 0;
+	font-size: 16px;
+	color: black;
+}
+
+#search-query{
+	position: relative;
+	top: 40px;
+	float: right;
+	width: 320px;
+	height: 45px;
+	border: 0;
+	background: rgb(243,243,243);
+	background-image: url('img/seach.png');
+	background-repeat: no-repeat;
+	background-position: 93%;
+	border-radius: 20px;
+	padding: 20px 0 20px 30px;
+}
+
+#weather{
+	color: rgb(145,145,145);
+	position: absolute;
+	top: 53px;
+	right: 370px;
+	background: 0;
+	font-size: 16px;
+}
+
+.blue-bar {
+	background-color: rgb(0,18,47);
+	color: white;
+	padding: 20px 0;
+}	
+
+.blue-bar a {
+	color: white;
+}
+
+.fixed-container {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+#datetime {
+	float: right;
+}
+
+.navigation {
+	display: inline-block;
+}
+
+.navigation a {
+	color: black;
+	text-decoration: none;
+	margin: 12px 0px 10px 0px;
+	padding: 0;
+}
+
+.navigation-separator {
+	display: inline-block;
+	color: rgb(236,236,236);
+	margin: 20px 10px 10px 10px;
+	padding: 0;
+}
+
+#column-left{
+	width: 250px;
+	background-color: white;
+	float: left;
+}
+	
+	.news-item {
+
+		padding-left: 18px;
+		margin-bottom: 27px;
+		font-size: 14px;
+	}
+
+	.news-item-text {
+		margin-bottom: 20px;
+	}
+
+	.news-item-props {
+		position: relative;
+		font-size: 12px;
+	}
+
+	.news-item-props a {
+		color: #91919f;
+		text-decoration: none;
+	}
+
+	.news-time {
+		position: absolute;
+		top: 0;
+		left: 120px;
+		padding-left: 15px;
+		background-image: url('img/icon-time.png');
+		background-repeat: no-repeat;
+	}
+
+	.news-time-center {
+		position: absolute;
+		top: 0;
+		left: 70px;
+		padding-left: 15px;
+		background-image: url('img/icon-time.png');
+		background-repeat: no-repeat;
+	}
+
+	.news-comments-count {
+		position: absolute;
+		top: 0;
+		left: 180px;
+		padding-left: 15px;
+		background-image: url('img/icon-comments.png');
+		background-repeat: no-repeat;
+	}
+
+	.news-comments-count-center {
+		position: absolute;
+		top: 0;
+		left: 130px;
+		padding-left: 15px;
+		background-image: url('img/icon-comments.png');
+		background-repeat: no-repeat;
+	}
+
+#column-center {
+	width: 460px;
+	margin-left: 20px;
+	float: left;
+}
+
+	.news-on-picture {
+		/*padding-top: 110px;
+		padding-left: 20px;
+		padding-bottom: 50px;
+		padding-right: 50px;*/
+		width: 460px;
+		margin-bottom: 20px;
+		background-repeat: no-repeat;
+		color: white;
+		height: 100%;
+		
+	}
+
+	#castle {
+		margin: 0;
+		background-image: url('img/castle.png');
+		height: 320px;
+	}
+
+	#truck {
+		position: absolute;
+		margin: 0;
+		width: 585px;
+		height: 392px;
+		background-image: url('img/truck.png');
+	}
+
+	.mask {
+		/*height:100%;
+	    width:100%;
+	    top:0;
+	    left:0;*/
+		background-color: rgba(0,0,0,.05);
+		}
+
+	.news-on-picture-props {
+		/*position: absolute;
+		width: 420px;
+		height: 355px;
+		top:110px;*/
+		margin-top: 110px;
+		margin-left: 20px;
+		margin-bottom: 30px;
+		
+		position: relative;
+		display: inline-block;
+		font-size: 12px;
+	}
+
+	.news-on-picture-props a {
+		color: white;
+		text-decoration: none;
+	}
+
+	.news-on-picture-text {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	.news-on-picture-date {
+		display: inline-block;
+		margin-right: 20px;
+	}
+
+	.news-on-picture-time {
+		/*position: absolute;
+		left: 110px;*/
+		display: inline-block;
+		padding-left: 15px;
+		background-image: url('img/clock-white.png');
+		background-repeat: no-repeat;
+	}
+
+	.news-on-picture-comment {
+		margin-top: 30px;
+	}
+
+	.news-center1 {
+		position: absolute;
+		width: 220px;
+		margin-top: 20px;
+		margin-right: 20px;
+		background-repeat: no-repeat;
+	}
+
+	.news-picture {
+		background-repeat: no-repeat;
+		height: 142px;
+		margin-bottom: 10px;
+	}
+	#peoples {
+		background-image: url('img/peoples.png');
+	}
+	#passport {
+		background-image: url('img/passport.png');
+	}
+	#women {
+		background-image: url('img/women.png');
+	}
+	#football {
+		background-image: url('img/football.png');
+	}
+
+	.news-center2 {
+		position: relative;
+		left: 240px;
+		width: 220px;
+		margin-top: 20px;
+		margin-right: 10px;
+	}
+
+	.news-center-text {
+		font-weight: bold;
+		font-size: 14px;
+		margin-bottom: 20px;
+
+		
+	}
+
+#central-container {
+	padding-top: 20px;
+	background-color: #f9f9f9;
+}
+
+#central-container .fixed-container {
+	overflow-y: hidden;
+}
+
+#column-right {
+	width: 250px;
+	float: right;
+}
+
+#column-right img {
+	margin-bottom: 15px;
+}
+
+
+.popular-news {
+	margin-bottom: 60px;
+	position: relative;
+	width: 415px;
+	height: 392px;
+	background-color: white;
+	float: right;
+}
+
+.popular-news-item-text {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-container {
+	margin-top: 30px;
+	display: inline-block;
+	width: 135px;
+}
+
+#logo-footer-container {
+	width: 300px;
+	margin-left: 155px;
+}
+
+#logo-footer {
+	margin-top: 5px;
+	width: 300px;
+}
+
+.navigation-footer {
+	display: inline-block;
+	width: 170px;
+	color: white;
+	margin: 7px 0;
+	padding: 0;
+}
+
+.navigation-footer a {
+	text-decoration: none;
+}
+
+#soc-footer {
+	width: 222px;
+	margin-left: 39px;
+}
+
+.soc-footer {
+	display: inline-block;
+	width: 40px;
+	margin-right: 12px;
+	margin-bottom: 25px;
+}
+
+.cont-footer {
+	width: 200px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.cont-footer img {
+	margin-right: 20px;
+}
+
+#copywriter {
+
+	margin-top: 40px;
+	border-top: 1px solid #919191;
+	padding: 20px;
+	color: #919191;
+	text-align: center;
+	font-size: 12px;
+}
